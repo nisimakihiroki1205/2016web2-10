@@ -16,7 +16,7 @@
        geocoder =new google.maps.Geocoder();
         geocoder.geocoder({
           'address':'神奈川県厚木市飯山1583'
-        },function(results,status){
+        }, function(results, status) {
           if(status === google.maps.GeocoderStatus.OK){
             var location = results[0].geometry.location;
       map = new google.maps.Map(document.getElementById('map'), {
