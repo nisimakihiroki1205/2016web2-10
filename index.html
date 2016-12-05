@@ -15,9 +15,15 @@
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    zoom: 8
+    center: {lat: 35.666420, lng:  139.906310},
+    mapTypeId:google.map.MapTypeId.HYBRID,
+    zoom: 16
   });
+}
+      var marker = new google.maps.Marker({
+        position:{lat: 35.462906, lng:  139.330869},
+        map:map
+         });
 }
 
     </script>
